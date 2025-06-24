@@ -333,43 +333,6 @@ echo "login" | java Poker localhost 12345 test
 echo "bet1:100:20:10:AS:KH" | java Poker localhost 12345 test
 ```
 
-## Contributing
-
-### Development Setup
-
-1. **Fork the repository**
-2. **Create feature branch**
-   ```bash
-   git checkout -b feature/improved-strategy
-   ```
-
-3. **Code Standards**
-   - Use 4-space indentation
-   - Add JavaDoc comments
-   - Include unit tests
-
-4. **Testing Checklist**
-   - [ ] Test mode functionality
-   - [ ] Server mode connectivity
-   - [ ] All betting scenarios
-   - [ ] Error handling paths
-   - [ ] Resource cleanup
-
-### Feature Requests
-
-**High Priority:**
-- [ ] GUI interface
-- [ ] Configuration file support
-- [ ] Advanced hand evaluation
-- [ ] Statistical analysis
-- [ ] Tournament mode
-
-**Medium Priority:**
-- [ ] Multi-table support
-- [ ] Hand history logging
-- [ ] Strategy backtesting
-- [ ] Performance metrics
-
 ## Performance Metrics
 
 | Metric | Typical Value | Optimal Range |
@@ -379,26 +342,4 @@ echo "bet1:100:20:10:AS:KH" | java Poker localhost 12345 test
 | **Memory Usage** | <5MB | 1-10MB |
 | **CPU Usage** | <1% | 0.1-2% |
 
-## Security Considerations
 
-- **Credentials**: Hardcoded login credentials (production risk)
-- **Network**: Unencrypted TCP communication
-- **Validation**: Limited input validation
-- **Logging**: No sensitive data logging
-
-## License
-
-This project is provided for **educational and entertainment purposes only**.
-
-### Terms of Use
-- Personal learning and development
-- Academic research and study
-- Non-commercial tournament play
-- Commercial gambling operations (not recommended)
-- Real money applications without proper licensing (not recommended)
-
----
-
-**Built with care for poker enthusiasts and Java developers**
-
-*For questions, issues, or contributions, please refer to the project repository or contact the maintainers.*
