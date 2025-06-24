@@ -18,7 +18,6 @@ A sophisticated Java-based poker game client that connects to poker servers or r
 - [Sample Sessions](#sample-sessions)
 - [Troubleshooting](#troubleshooting)
 - [Advanced Usage](#advanced-usage)
-- [Contributing](#contributing)
 
 ## Features
 
